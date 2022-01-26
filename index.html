@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="pics/3.jpg"><img src="pics/Capture.PNG"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="index4.html">ABOUT ME</a></li>
+                <li><a href="index2.html">EDUCATION</a></li>
+                <li><a href="index3.html">MY HOBBIES</a></li>
+            
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>HEY GUYS...</h1>
+    <p>        Myself Akshay John from Electronics and communication department…I am hailing from Ernakulam and …</p>
+    <br>
+    <a href="index4.html" class="hero-btn">click to know more </a>
+</div>
+ 
+</section>
+
+<!----education--->
+<section class="education">
+<h1> EDUCATION</h1>
+<div class="row">
+    <div class="education-col">
+        <h3>Secondary education</h3>
+        <p>I have completed my 10th grade from Kendriya Vidyalaya NAD Aluva</p>
+    </div>
+    <div class="education-col">
+        <h3>Higher secondary education</h3>
+        <p>I have completed my higher secondary education in computer science from Kendriya Vidyalaya NAD Aluva</p>
+    </div>
+    <div class="education-col">
+        <h3>Under Graduation</h3>
+        <p>Currently, I am pursuing my B-tech in Electronics and Communication Engineering from Model Engineering College,Thrikkakara(2021-25 batch) </p>
+    </div>
+</div>
+</section>
+<section class="hobbies">
+    <h1>My Hobbies</h1>
+    <div class="row">
+        <div class="hobbies-col">
+            <img src="pics/4.webp">
+            <h3>Playing football</h3>
+        </div>
+        <div class="hobbies-col">
+            <img src="pics/5.jpg">
+            <h3>Watching movies,kdramas and sports</h3>
+        </div>
+        <div class="hobbies-col">
+            <img src="pics/6.jpg">
+            <h3>Travelling</h3>
+        </div>
+    </div>
+        
+     
+</section>
+<section class="footer">
+    <h2>contact me on</h2>
+    <div class="icons"> 
+        <a href="https://www.facebook.com/akshay.ancil/"><i class="fa fa-facebook">   </i></a>
+        <a href="https://www.instagram.com/akshay_ancil_07/"><i class="fa fa-instagram">   </i></a>
+        <a href=" https://wa.me/8590370811"><i class="fa fa-whatsapp">   </i></a>
+        
+  
+  
+    </div>
+ 
+</section>
+<!----javascript for toggle menu----->
+<script>
+var navlinks=document.getElementById("navlinks")
+function showmenu(){
+    navlinks.style.right="0";
+}
+function hidemenu(){
+    navlinks.style.right="-200px"
+}
+    </script>
+
+</body>
+</html>
